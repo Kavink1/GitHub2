@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-10-03T17:45:50Z" name="Default suite" finished-at="2024-10-03T17:45:55Z" duration-ms="4606">
     <groups>
     </groups>
@@ -12,6 +13,26 @@
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- program.Program1 -->
+=======
+  <suite started-at="2024-10-03T17:53:38Z" name="Default suite" finished-at="2024-10-03T17:54:05Z" duration-ms="27443">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T17:53:38Z" name="Default test" finished-at="2024-10-03T17:54:05Z" duration-ms="27443">
+      <class name="script.Login">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:script.Login@5be46f9d]" started-at="2024-10-03T17:53:38Z" name="openApp" finished-at="2024-10-03T17:54:01Z" duration-ms="23108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test()[pri:0, instance:script.Login@5be46f9d]" started-at="2024-10-03T17:54:01Z" name="test" finished-at="2024-10-03T17:54:04Z" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:script.Login@5be46f9d]" started-at="2024-10-03T17:54:04Z" name="closeApp" finished-at="2024-10-03T17:54:05Z" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.Login -->
+>>>>>>> refs/remotes/origin/master
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

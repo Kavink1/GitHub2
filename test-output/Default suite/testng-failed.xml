@@ -3,11 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="program.Program1">
         <methods>
           <include name="test"/>
         </methods>
       </class> <!-- program.Program1 -->
+=======
+      <class name="script.Login">
+        <methods>
+          <include name="openApp"/>
+          <include name="test"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Login -->
+>>>>>>> refs/remotes/origin/master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
