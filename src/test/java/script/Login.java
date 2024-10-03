@@ -12,6 +12,7 @@ public class Login extends BaseTest
 	{
 		driver.findElement(By.xpath("//p[.='UI Testing Concepts']")).click();
 		driver.findElement(By.name("name")).sendKeys("hi");
+		driver.findElement(By.name("email")).sendKeys("hi");
 		Thread.sleep(2000);
 	}
 }
